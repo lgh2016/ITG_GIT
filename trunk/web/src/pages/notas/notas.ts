@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { ConsultaNotaProvider } from '../../providers/consulta-nota/consulta-nota';
 
 /**
  * Generated class for the NotasPage page.
@@ -15,12 +16,20 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class NotasPage {
   objetoRecibidoNota: any;
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  objetoNotas =[];
+  constructor(public navCtrl: NavController, public navParams: NavParams, public no: ConsultaNotaProvider ) {
     this.objetoRecibidoNota = navParams.data;
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad NotasPage');
+
+    this.no.obtenerNotas(this.objetoRecibidoNota.id)
+    	.subscribe(
+    	 (data)=>{this.objetoNotas=data;},
+    	 (error)=>{console.log(error);}
+
+    	)
   }
 
 }
