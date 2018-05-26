@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {  NotasPage } from '../notas/notas';
 import {  SolicitudPage } from '../solicitud/solicitud';
+import * as Constants from '../../util/constants';
 
 /**
  * Generated class for the InicioPage page.
@@ -14,13 +15,19 @@ import {  SolicitudPage } from '../solicitud/solicitud';
 @Component({
   selector: 'page-inicio',
   templateUrl: 'inicio.html',
+  
+  
 })
 export class InicioPage {
 
   objetoRecibido: any;
+  nombreITG: any;
+  
+   
   constructor(public navCtrl: NavController, public navParams: NavParams) {
 
     this.objetoRecibido = navParams.data;
+    this.nombreITG = Constants.API_ENDPOINT;
   }
 
   ionViewDidLoad() {
