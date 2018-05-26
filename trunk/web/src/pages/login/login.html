@@ -1,0 +1,28 @@
+
+
+
+<ion-content padding>
+  <div class="centrado">
+	<img  style=" height: 106px;" src="../assets/imgs/logoitg_trans_chico.png" class="center" />
+  </div>
+<ion-list>
+  <ion-item>
+    <ion-label fixed>Usuario</ion-label>
+  </ion-item>
+
+    <ion-item>
+        <ion-input type="text" value="" [(ngModel)]="userData.username"></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label fixed>Contraseña</ion-label>
+    </ion-item>
+    <ion-item>
+
+      <ion-input type="password" [(ngModel)]="userData.password"></ion-input>
+    </ion-item>
+
+    <button ion-button block color="primary" (click)="login()" >Enviar</button>
+
+  </ion-list>
+
+</ion-content>

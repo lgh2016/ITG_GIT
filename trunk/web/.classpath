@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="node_modules/cordova-lib/templates/platforms/android"/>
+	<classpathentry kind="src" path="node_modules/cordova-sqlite-storage/src/android"/>
+	<classpathentry kind="src" path="node_modules/properties-parser/test"/>
+	<classpathentry kind="src" path="plugins/cordova-sqlite-storage/src/android"/>
+	<classpathentry kind="lib" path="node_modules/cordova-sqlite-storage-dependencies/libs/sqlite-connector.jar"/>
+	<classpathentry kind="lib" path="node_modules/cordova-sqlite-storage-dependencies/libs/sqlite-native-driver.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
