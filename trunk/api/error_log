@@ -1,0 +1,154 @@
+[12-May-2018 05:21:23 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/innovan1/public_html/itg/api/login.php on line 17
+[12-May-2018 05:30:15 UTC] PHP Warning:  Missing argument 1 for getLogin(), called in /home/innovan1/public_html/itg/api/vlogin.php on line 3 and defined in /home/innovan1/public_html/itg/api/functions.php on line 3
+[12-May-2018 05:30:15 UTC] PHP Warning:  Missing argument 2 for getLogin(), called in /home/innovan1/public_html/itg/api/vlogin.php on line 3 and defined in /home/innovan1/public_html/itg/api/functions.php on line 3
+[12-May-2018 05:30:15 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/innovan1/public_html/itg/api/login.php on line 17
+[12-May-2018 05:38:29 UTC] PHP Fatal error:  Class 'Emp' not found in /home/innovan1/public_html/itg/api/functions.php on line 5
+[12-May-2018 05:39:31 UTC] PHP Notice:  A non well formed numeric value encountered in /home/innovan1/public_html/itg/api/functions.php on line 11
+[12-May-2018 05:39:31 UTC] PHP Fatal error:  Call to undefined function getLogin() in /home/innovan1/public_html/itg/api/vlogin.php on line 3
+[12-May-2018 05:41:22 UTC] PHP Notice:  A non well formed numeric value encountered in /home/innovan1/public_html/itg/api/functions.php on line 11
+[12-May-2018 05:41:22 UTC] PHP Fatal error:  Call to undefined function getLogin() in /home/innovan1/public_html/itg/api/vlogin.php on line 3
+[12-May-2018 05:43:03 UTC] PHP Notice:  A non well formed numeric value encountered in /home/innovan1/public_html/itg/api/functions.php on line 11
+[12-May-2018 05:43:03 UTC] PHP Fatal error:  Call to undefined function getLogin() in /home/innovan1/public_html/itg/api/vlogin.php on line 3
+[12-May-2018 05:43:14 UTC] PHP Fatal error:  Call to undefined function getLogin() in /home/innovan1/public_html/itg/api/vlogin.php on line 3
+[12-May-2018 05:45:47 UTC] PHP Fatal error:  Call to undefined function getLogin() in /home/innovan1/public_html/itg/api/vlogin.php on line 3
+[12-May-2018 05:45:58 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/innovan1/public_html/itg/api/functions.php on line 12
+[12-May-2018 05:46:00 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/innovan1/public_html/itg/api/functions.php on line 12
+[12-May-2018 05:46:14 UTC] PHP Fatal error:  Call to undefined function getLogin() in /home/innovan1/public_html/itg/api/vlogin.php on line 3
+[12-May-2018 05:56:50 UTC] PHP Notice:  Undefined variable: muser in /home/innovan1/public_html/itg/api/functions.php on line 8
+[12-May-2018 05:56:50 UTC] PHP Notice:  Undefined variable: mpass in /home/innovan1/public_html/itg/api/functions.php on line 8
+[12-May-2018 05:56:50 UTC] PHP Warning:  Missing argument 1 for LoginU::__construct(), called in /home/innovan1/public_html/itg/api/login.php on line 16 and defined in /home/innovan1/public_html/itg/api/login.php on line 11
+[12-May-2018 05:56:50 UTC] PHP Notice:  Undefined variable: db in /home/innovan1/public_html/itg/api/login.php on line 12
+[12-May-2018 05:56:50 UTC] PHP Notice:  Undefined variable: stmt in /home/innovan1/public_html/itg/api/login.php on line 21
+[12-May-2018 05:57:14 UTC] PHP Notice:  Undefined variable: muser in /home/innovan1/public_html/itg/api/functions.php on line 8
+[12-May-2018 05:57:14 UTC] PHP Notice:  Undefined variable: mpass in /home/innovan1/public_html/itg/api/functions.php on line 8
+[12-May-2018 05:57:14 UTC] PHP Warning:  Missing argument 1 for LoginU::__construct(), called in /home/innovan1/public_html/itg/api/login.php on line 16 and defined in /home/innovan1/public_html/itg/api/login.php on line 11
+[12-May-2018 05:57:14 UTC] PHP Notice:  Undefined variable: db in /home/innovan1/public_html/itg/api/login.php on line 12
+[12-May-2018 05:57:14 UTC] PHP Notice:  Undefined variable: stmt in /home/innovan1/public_html/itg/api/login.php on line 21
+[12-May-2018 05:58:31 UTC] PHP Notice:  Undefined variable: muser in /home/innovan1/public_html/itg/api/functions.php on line 8
+[12-May-2018 05:58:31 UTC] PHP Notice:  Undefined variable: mpass in /home/innovan1/public_html/itg/api/functions.php on line 8
+[12-May-2018 05:58:31 UTC] PHP Warning:  Missing argument 1 for LoginU::__construct(), called in /home/innovan1/public_html/itg/api/login.php on line 16 and defined in /home/innovan1/public_html/itg/api/login.php on line 11
+[12-May-2018 05:58:31 UTC] PHP Notice:  Undefined variable: db in /home/innovan1/public_html/itg/api/login.php on line 12
+[12-May-2018 06:03:21 UTC] PHP Notice:  Undefined variable: muser in /home/innovan1/public_html/itg/api/functions.php on line 8
+[12-May-2018 06:03:21 UTC] PHP Notice:  Undefined variable: mpass in /home/innovan1/public_html/itg/api/functions.php on line 8
+[12-May-2018 06:03:21 UTC] PHP Warning:  Missing argument 1 for LoginU::__construct(), called in /home/innovan1/public_html/itg/api/login.php on line 22 and defined in /home/innovan1/public_html/itg/api/login.php on line 11
+[12-May-2018 06:03:21 UTC] PHP Notice:  Undefined variable: db in /home/innovan1/public_html/itg/api/login.php on line 12
+[12-May-2018 06:13:18 UTC] PHP Parse error:  syntax error, unexpected '$pass' (T_VARIABLE) in /home/innovan1/public_html/itg/api/vlogin.php on line 4
+[12-May-2018 06:15:00 UTC] PHP Parse error:  syntax error, unexpected '$pass' (T_VARIABLE) in /home/innovan1/public_html/itg/api/vlogin.php on line 4
+[12-May-2018 06:16:40 UTC] PHP Notice:  Undefined index: filas in /home/innovan1/public_html/itg/api/vlogin.php on line 2
+[12-May-2018 06:19:29 UTC] PHP Parse error:  syntax error, unexpected '$password' (T_VARIABLE) in /home/innovan1/public_html/itg/api/vlogin.php on line 5
+[12-May-2018 06:21:10 UTC] PHP Notice:  Undefined variable: pass in /home/innovan1/public_html/itg/api/vlogin.php on line 6
+[12-May-2018 06:21:10 UTC] PHP Warning:  Missing argument 1 for LoginU::__construct(), called in /home/innovan1/public_html/itg/api/login.php on line 22 and defined in /home/innovan1/public_html/itg/api/login.php on line 11
+[12-May-2018 06:21:10 UTC] PHP Notice:  Undefined variable: db in /home/innovan1/public_html/itg/api/login.php on line 12
+[12-May-2018 06:26:37 UTC] PHP Notice:  Undefined variable: pass in /home/innovan1/public_html/itg/api/vlogin.php on line 6
+[12-May-2018 06:27:25 UTC] PHP Notice:  Undefined variable: pass in /home/innovan1/public_html/itg/api/vlogin.php on line 6
+[12-May-2018 06:29:18 UTC] PHP Notice:  Undefined variable: pass in /home/innovan1/public_html/itg/api/vlogin.php on line 6
+[12-May-2018 06:29:50 UTC] PHP Notice:  Undefined variable: pass in /home/innovan1/public_html/itg/api/vlogin.php on line 6
+[12-May-2018 06:29:50 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/innovan1/public_html/itg/api/login.php on line 17
+[12-May-2018 06:30:02 UTC] PHP Notice:  Undefined variable: pass in /home/innovan1/public_html/itg/api/vlogin.php on line 6
+[12-May-2018 06:33:12 UTC] PHP Notice:  Undefined variable: pass in /home/innovan1/public_html/itg/api/vlogin.php on line 6
+[12-May-2018 06:33:12 UTC] PHP Notice:  Undefined variable: mysqli in /home/innovan1/public_html/itg/api/login.php on line 17
+[12-May-2018 06:33:12 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/innovan1/public_html/itg/api/login.php on line 17
+[12-May-2018 06:38:28 UTC] PHP Notice:  Undefined variable: pass in /home/innovan1/public_html/itg/api/vlogin.php on line 6
+[12-May-2018 06:38:28 UTC] PHP Notice:  Undefined variable: mysqli in /home/innovan1/public_html/itg/api/login.php on line 17
+[12-May-2018 06:38:28 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/innovan1/public_html/itg/api/login.php on line 17
+[12-May-2018 06:38:46 UTC] PHP Notice:  Undefined variable: pass in /home/innovan1/public_html/itg/api/vlogin.php on line 6
+[12-May-2018 06:39:06 UTC] PHP Notice:  Undefined variable: pass in /home/innovan1/public_html/itg/api/vlogin.php on line 6
+[12-May-2018 06:44:34 UTC] PHP Notice:  Undefined variable: pass in /home/innovan1/public_html/itg/api/vlogin.php on line 6
+[12-May-2018 06:45:39 UTC] PHP Notice:  Undefined variable: pass in /home/innovan1/public_html/itg/api/vlogin.php on line 6
+[12-May-2018 06:48:29 UTC] PHP Notice:  Undefined variable: pass in /home/innovan1/public_html/itg/api/vlogin.php on line 6
+[12-May-2018 06:48:51 UTC] PHP Notice:  Undefined variable: pass in /home/innovan1/public_html/itg/api/vlogin.php on line 6
+[12-May-2018 06:50:17 UTC] PHP Notice:  Undefined variable: pass in /home/innovan1/public_html/itg/api/vlogin.php on line 6
+[12-May-2018 06:51:11 UTC] PHP Notice:  Undefined variable: pass in /home/innovan1/public_html/itg/api/vlogin.php on line 6
+[12-May-2018 06:51:21 UTC] PHP Notice:  Undefined variable: pass in /home/innovan1/public_html/itg/api/vlogin.php on line 6
+[12-May-2018 06:51:25 UTC] PHP Notice:  Undefined variable: pass in /home/innovan1/public_html/itg/api/vlogin.php on line 6
+[12-May-2018 06:51:28 UTC] PHP Notice:  Undefined variable: pass in /home/innovan1/public_html/itg/api/vlogin.php on line 6
+[12-May-2018 06:52:39 UTC] PHP Notice:  Undefined variable: pass in /home/innovan1/public_html/itg/api/vlogin.php on line 6
+[12-May-2018 06:53:05 UTC] PHP Notice:  Undefined variable: pass in /home/innovan1/public_html/itg/api/vlogin.php on line 6
+[12-May-2018 06:54:51 UTC] PHP Notice:  Undefined variable: pass in /home/innovan1/public_html/itg/api/vlogin.php on line 6
+[12-May-2018 06:58:47 UTC] PHP Notice:  Undefined variable: pass in /home/innovan1/public_html/itg/api/vlogin.php on line 6
+[12-May-2018 15:37:33 UTC] PHP Notice:  Undefined index: usr in /home/innovan1/public_html/itg/api/vlogin.php on line 2
+[12-May-2018 16:00:15 UTC] PHP Notice:  Undefined index: usr in /home/innovan1/public_html/itg/api/vlogin.php on line 2
+[12-May-2018 16:00:17 UTC] PHP Notice:  Undefined index: usr in /home/innovan1/public_html/itg/api/vlogin.php on line 2
+[12-May-2018 17:32:04 UTC] PHP Notice:  Use of undefined constant row - assumed 'row' in /home/innovan1/public_html/itg/api/functions.php on line 10
+[12-May-2018 17:32:04 UTC] PHP Warning:  Illegal string offset 'nombre' in /home/innovan1/public_html/itg/api/functions.php on line 10
+[12-May-2018 17:32:04 UTC] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/innovan1/public_html/itg/api/functions.php on line 10
+[12-May-2018 17:32:32 UTC] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/innovan1/public_html/itg/api/functions.php on line 10
+[12-May-2018 17:32:36 UTC] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/innovan1/public_html/itg/api/functions.php on line 10
+[12-May-2018 17:33:09 UTC] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/innovan1/public_html/itg/api/functions.php on line 10
+[12-May-2018 17:33:11 UTC] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/innovan1/public_html/itg/api/functions.php on line 10
+[12-May-2018 17:33:13 UTC] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/innovan1/public_html/itg/api/functions.php on line 10
+[12-May-2018 17:33:14 UTC] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/innovan1/public_html/itg/api/functions.php on line 10
+[12-May-2018 17:41:13 UTC] PHP Warning:  extract() expects parameter 1 to be array, string given in /home/innovan1/public_html/itg/api/functions.php on line 12
+[12-May-2018 17:41:42 UTC] PHP Warning:  extract() expects parameter 1 to be array, string given in /home/innovan1/public_html/itg/api/functions.php on line 12
+[12-May-2018 17:41:50 UTC] PHP Warning:  extract() expects parameter 1 to be array, string given in /home/innovan1/public_html/itg/api/functions.php on line 12
+[12-May-2018 17:41:57 UTC] PHP Warning:  extract() expects parameter 1 to be array, string given in /home/innovan1/public_html/itg/api/functions.php on line 12
+[12-May-2018 17:42:00 UTC] PHP Warning:  extract() expects parameter 1 to be array, string given in /home/innovan1/public_html/itg/api/functions.php on line 12
+[12-May-2018 17:42:05 UTC] PHP Warning:  extract() expects parameter 1 to be array, string given in /home/innovan1/public_html/itg/api/functions.php on line 12
+[12-May-2018 17:42:21 UTC] PHP Warning:  extract() expects parameter 1 to be array, string given in /home/innovan1/public_html/itg/api/functions.php on line 12
+[12-May-2018 17:43:02 UTC] PHP Notice:  Trying to get property of non-object in /home/innovan1/public_html/itg/api/functions.php on line 12
+[12-May-2018 17:47:59 UTC] PHP Notice:  Trying to get property of non-object in /home/innovan1/public_html/itg/api/functions.php on line 12
+[12-May-2018 18:34:38 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/innovan1/public_html/itg/api/functions.php on line 18
+[12-May-2018 18:35:05 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/innovan1/public_html/itg/api/functions.php on line 18
+[12-May-2018 18:35:46 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/innovan1/public_html/itg/api/functions.php on line 18
+[12-May-2018 18:35:56 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/innovan1/public_html/itg/api/functions.php on line 18
+[12-May-2018 18:35:57 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/innovan1/public_html/itg/api/functions.php on line 18
+[12-May-2018 18:36:02 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/innovan1/public_html/itg/api/functions.php on line 18
+[12-May-2018 18:36:02 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/innovan1/public_html/itg/api/functions.php on line 18
+[12-May-2018 18:36:19 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/innovan1/public_html/itg/api/functions.php on line 18
+[12-May-2018 18:36:21 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/innovan1/public_html/itg/api/functions.php on line 18
+[12-May-2018 18:40:45 UTC] PHP Notice:  Use of undefined constant nombre_usuario - assumed 'nombre_usuario' in /home/innovan1/public_html/itg/api/functions.php on line 22
+[15-May-2018 16:50:47 UTC] PHP Notice:  Undefined index: pass in /home/innovan1/public_html/itg/api/vlogin.php on line 3
+[15-May-2018 16:50:51 UTC] PHP Notice:  Undefined index: pass in /home/innovan1/public_html/itg/api/vlogin.php on line 3
+[15-May-2018 16:50:58 UTC] PHP Notice:  Undefined index: pass in /home/innovan1/public_html/itg/api/vlogin.php on line 3
+[26-May-2018 06:16:15 UTC] PHP Notice:  Undefined index: usr in /home/innovan1/public_html/itg/api/vlogin.php on line 3
+[26-May-2018 06:16:32 UTC] PHP Notice:  Undefined index: usr in /home/innovan1/public_html/itg/api/vlogin.php on line 3
+[26-May-2018 06:16:40 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /home/innovan1/public_html/itg/api/consulta.php on line 15
+[26-May-2018 06:17:02 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /home/innovan1/public_html/itg/api/consulta.php on line 15
+[26-May-2018 06:47:41 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/innovan1/public_html/itg/api/functions.php on line 22
+[26-May-2018 06:47:45 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/innovan1/public_html/itg/api/functions.php on line 22
+[26-May-2018 06:47:58 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/innovan1/public_html/itg/api/functions.php on line 22
+[26-May-2018 07:03:47 UTC] PHP Parse error:  syntax error, unexpected '$status' (T_VARIABLE) in /home/innovan1/public_html/itg/api/functions.php on line 94
+[26-May-2018 07:06:25 UTC] PHP Parse error:  syntax error, unexpected '$status' (T_VARIABLE) in /home/innovan1/public_html/itg/api/functions.php on line 94
+[26-May-2018 07:06:28 UTC] PHP Parse error:  syntax error, unexpected '$status' (T_VARIABLE) in /home/innovan1/public_html/itg/api/functions.php on line 94
+[26-May-2018 07:06:55 UTC] PHP Parse error:  syntax error, unexpected '$status' (T_VARIABLE) in /home/innovan1/public_html/itg/api/functions.php on line 94
+[26-May-2018 07:07:22 UTC] PHP Parse error:  syntax error, unexpected '$status' (T_VARIABLE) in /home/innovan1/public_html/itg/api/functions.php on line 94
+[26-May-2018 07:07:39 UTC] PHP Parse error:  syntax error, unexpected '$status' (T_VARIABLE) in /home/innovan1/public_html/itg/api/functions.php on line 94
+[26-May-2018 07:08:43 UTC] PHP Parse error:  syntax error, unexpected '$status' (T_VARIABLE) in /home/innovan1/public_html/itg/api/functions.php on line 94
+[26-May-2018 07:08:47 UTC] PHP Parse error:  syntax error, unexpected '$status' (T_VARIABLE) in /home/innovan1/public_html/itg/api/functions.php on line 94
+[26-May-2018 07:11:21 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/innovan1/public_html/itg/api/functions.php on line 81
+[26-May-2018 07:11:34 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/innovan1/public_html/itg/api/functions.php on line 81
+[26-May-2018 07:11:38 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/innovan1/public_html/itg/api/functions.php on line 81
+[26-May-2018 07:12:00 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/innovan1/public_html/itg/api/functions.php on line 81
+[26-May-2018 07:12:08 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/innovan1/public_html/itg/api/functions.php on line 81
+[26-May-2018 07:12:11 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/innovan1/public_html/itg/api/functions.php on line 81
+[26-May-2018 07:12:15 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/innovan1/public_html/itg/api/functions.php on line 81
+[26-May-2018 07:12:45 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/innovan1/public_html/itg/api/functions.php on line 81
+[26-May-2018 07:13:25 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/innovan1/public_html/itg/api/functions.php on line 81
+[26-May-2018 07:13:49 UTC] PHP Notice:  Undefined index: usr in /home/innovan1/public_html/itg/api/vlogin.php on line 3
+[26-May-2018 07:14:08 UTC] PHP Notice:  Undefined index: usr in /home/innovan1/public_html/itg/api/vlogin.php on line 3
+[26-May-2018 07:14:19 UTC] PHP Notice:  Undefined index: usr in /home/innovan1/public_html/itg/api/vlogin.php on line 3
+[26-May-2018 07:15:27 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/innovan1/public_html/itg/api/functions.php on line 81
+[26-May-2018 07:19:36 UTC] PHP Parse error:  syntax error, unexpected '$status' (T_VARIABLE) in /home/innovan1/public_html/itg/api/functions.php on line 94
+[26-May-2018 07:20:06 UTC] PHP Parse error:  syntax error, unexpected '$status' (T_VARIABLE) in /home/innovan1/public_html/itg/api/functions.php on line 94
+[26-May-2018 07:20:08 UTC] PHP Parse error:  syntax error, unexpected '$status' (T_VARIABLE) in /home/innovan1/public_html/itg/api/functions.php on line 94
+[26-May-2018 07:21:04 UTC] PHP Parse error:  syntax error, unexpected '$status' (T_VARIABLE) in /home/innovan1/public_html/itg/api/functions.php on line 94
+[26-May-2018 07:21:06 UTC] PHP Parse error:  syntax error, unexpected '$status' (T_VARIABLE) in /home/innovan1/public_html/itg/api/functions.php on line 94
+[26-May-2018 07:21:55 UTC] PHP Notice:  Undefined property: stdClass::$fechaSalida in /home/innovan1/public_html/itg/api/functions.php on line 96
+[26-May-2018 07:21:55 UTC] PHP Notice:  Undefined property: stdClass::$fechaSalida in /home/innovan1/public_html/itg/api/functions.php on line 96
+[26-May-2018 07:23:40 UTC] PHP Notice:  Undefined property: stdClass::$fechaSalida in /home/innovan1/public_html/itg/api/functions.php on line 96
+[26-May-2018 07:23:40 UTC] PHP Notice:  Undefined property: stdClass::$fechaSalida in /home/innovan1/public_html/itg/api/functions.php on line 96
+[26-May-2018 07:31:09 UTC] PHP Notice:  Undefined property: stdClass::$fechaSalida in /home/innovan1/public_html/itg/api/functions.php on line 96
+[26-May-2018 07:31:09 UTC] PHP Notice:  Undefined property: stdClass::$fechaSalida in /home/innovan1/public_html/itg/api/functions.php on line 96
+[26-May-2018 07:34:51 UTC] PHP Notice:  Undefined property: stdClass::$fechaSalida in /home/innovan1/public_html/itg/api/functions.php on line 96
+[26-May-2018 07:34:51 UTC] PHP Notice:  Undefined property: stdClass::$fechaSalida in /home/innovan1/public_html/itg/api/functions.php on line 96
+[26-May-2018 07:34:55 UTC] PHP Notice:  Undefined property: stdClass::$fechaSalida in /home/innovan1/public_html/itg/api/functions.php on line 96
+[26-May-2018 07:34:55 UTC] PHP Notice:  Undefined property: stdClass::$fechaSalida in /home/innovan1/public_html/itg/api/functions.php on line 96
+[26-May-2018 07:35:26 UTC] PHP Notice:  Undefined property: stdClass::$fechaSalida in /home/innovan1/public_html/itg/api/functions.php on line 96
+[26-May-2018 07:35:26 UTC] PHP Notice:  Undefined property: stdClass::$fechaSalida in /home/innovan1/public_html/itg/api/functions.php on line 96
+[26-May-2018 07:40:59 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/innovan1/public_html/itg/api/functions.php on line 103
+[26-May-2018 07:41:14 UTC] PHP Notice:  Undefined property: stdClass::$fechaSalida in /home/innovan1/public_html/itg/api/functions.php on line 96
+[26-May-2018 07:41:14 UTC] PHP Notice:  Undefined property: stdClass::$fechaSalida in /home/innovan1/public_html/itg/api/functions.php on line 96
+[26-May-2018 07:45:38 UTC] PHP Notice:  Undefined property: stdClass::$fechaSalida in /home/innovan1/public_html/itg/api/functions.php on line 96
+[26-May-2018 07:45:38 UTC] PHP Notice:  Undefined property: stdClass::$fechaSalida in /home/innovan1/public_html/itg/api/functions.php on line 96
+[26-May-2018 07:51:22 UTC] PHP Notice:  Undefined property: stdClass::$fechaSalida in /home/innovan1/public_html/itg/api/functions.php on line 96
+[26-May-2018 07:51:22 UTC] PHP Notice:  Undefined property: stdClass::$fechaSalida in /home/innovan1/public_html/itg/api/functions.php on line 96
