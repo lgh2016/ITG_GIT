@@ -22,12 +22,17 @@
 <ion-content padding>
 
 Notas
-<p>Bienvenido: {{objetoRecibidoNota.username}}</p>
+<p> {{objetoRecibidoNota.username}}</p>
 
-<ion-list>
-  <ion-item>Nota 1</ion-item>
-  <ion-item>Nota 2</ion-item>
-  <ion-item>Nota 3</ion-item>
+<ion-list no-lines>
+  <ion-item-divider  *ngFor="let  obj  of objetoNotas" detail-push>
+
+      {{obj.titulo}}
+      {{obj.fecha_creada}}
+
+
+  </ion-item-divider>
+
 </ion-list>
 
 

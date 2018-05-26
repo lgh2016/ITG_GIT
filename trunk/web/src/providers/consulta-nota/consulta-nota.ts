@@ -16,7 +16,7 @@ export class ConsultaNotaProvider {
 
   obtenerNotas(id)
   {
-    return this.http.get('http://innovandosistemas.com.mx/itg/api/opc_consultas.php?id_usr=1&tipo_consulta='+id);
+    return this.http.get('http://innovandosistemas.com.mx/itg/api/opc_consultas.php?id_usr='+id+'&tipo_consulta=1');
     
   }
 

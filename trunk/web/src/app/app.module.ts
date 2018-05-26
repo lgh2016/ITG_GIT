@@ -26,6 +26,8 @@ import { MomentModule } from 'angular2-moment';
 import { LinkyModule } from 'angular-linky';
 import { ConsultaNotaProvider } from '../providers/consulta-nota/consulta-nota';
 
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     MyApp,
@@ -42,7 +44,8 @@ import { ConsultaNotaProvider } from '../providers/consulta-nota/consulta-nota';
   ],
   imports: [
     BrowserModule,HttpModule,MomentModule,LinkyModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    HttpClientModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [

@@ -16,7 +16,7 @@ import { ConsultaNotaProvider } from '../../providers/consulta-nota/consulta-not
 })
 export class NotasPage {
   objetoRecibidoNota: any;
-  objetoNotas =[];
+  objetoNotas: any;
   constructor(public navCtrl: NavController, public navParams: NavParams, public no: ConsultaNotaProvider ) {
     this.objetoRecibidoNota = navParams.data;
   }
