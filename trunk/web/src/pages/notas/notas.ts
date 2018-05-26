@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, Alert } from 'ionic-angular';
 import { ConsultaNotaProvider } from '../../providers/consulta-nota/consulta-nota';
 
 /**
@@ -30,6 +30,27 @@ export class NotasPage {
     	 (error)=>{console.log(error);}
 
     	)
+  }
+
+  detalleNotas(obj)
+  {
+
+   alert("buscando un detalle");
+
+    console.log(obj.contenido);
+
+  let prompt = Alert.create({
+          title: obj.titulo,
+          subTitle: obj.fecha_creada,
+          message: obj.contenido,
+          buttons: [
+              {
+                  text: 'Cerrar'
+              }
+          ]
+      });
+      
+      this.navCtrl.present(prompt);
   }
 
 }

@@ -25,9 +25,9 @@ Notas
 <p> {{objetoRecibidoNota.username}}</p>
 
 <ion-list no-lines>
-  <ion-item-divider  *ngFor="let  obj  of objetoNotas" detail-push>
+  <ion-item-divider  *ngFor="let  obj  of objetoNotas" (click)="detalleNotas(obj)">
 
-      {{obj.titulo}}
+      {{obj.titulo}}<br>
       {{obj.fecha_creada}}
 
 
