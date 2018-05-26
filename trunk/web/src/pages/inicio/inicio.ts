@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {  NotasPage } from '../notas/notas';
+import {  SolicitudPage } from '../solicitud/solicitud';
 
 /**
  * Generated class for the InicioPage page.
@@ -30,5 +31,8 @@ export class InicioPage {
   this.navCtrl.push(NotasPage,this.objetoRecibido);
 
   }
+  abrirSolicitud(){
+  this.navCtrl.push(SolicitudPage,this.objetoRecibido);
 
+  }
 }

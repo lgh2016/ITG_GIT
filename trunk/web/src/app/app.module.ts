@@ -15,6 +15,7 @@ import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { InicioPage } from '../pages/inicio/inicio';
 import { NotasPage} from  '../pages/notas/notas';
+import {  SolicitudPage } from '../pages/solicitud/solicitud';
 
 
 
@@ -23,6 +24,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { MomentModule } from 'angular2-moment';
 import { LinkyModule } from 'angular-linky';
+import { ConsultaNotaProvider } from '../providers/consulta-nota/consulta-nota';
 
 @NgModule({
   declarations: [
@@ -35,6 +37,7 @@ import { LinkyModule } from 'angular-linky';
     HomePage,
     InicioPage,
     NotasPage,
+    SolicitudPage,
     TabsPage
   ],
   imports: [
@@ -52,12 +55,14 @@ import { LinkyModule } from 'angular-linky';
     HomePage,
     InicioPage,
     NotasPage,
+    SolicitudPage,
     TabsPage
   ],
   providers: [
     StatusBar,
     SplashScreen,AuthService,SplitPane,Common,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    ConsultaNotaProvider
   ]
 })
 export class AppModule {}
