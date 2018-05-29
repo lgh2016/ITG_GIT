@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams, Alert } from 'ionic-angular';
+import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { AlertController } from 'ionic-angular';
 import { ConsultaNotaProvider } from '../../providers/consulta-nota/consulta-nota';
 
 /**
@@ -17,7 +18,7 @@ import { ConsultaNotaProvider } from '../../providers/consulta-nota/consulta-not
 export class NotasPage {
   objetoRecibidoNota: any;
   objetoNotas: any;
-  constructor(public navCtrl: NavController, public navParams: NavParams, public no: ConsultaNotaProvider ) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public no: ConsultaNotaProvider, public  alertCtrl: AlertController ) {
     this.objetoRecibidoNota = navParams.data;
   }
 
@@ -39,7 +40,7 @@ export class NotasPage {
 
     console.log(obj.contenido);
 
-  let prompt = Alert.create({
+  /*let prompt = this.AlertController.create({
           title: obj.titulo,
           subTitle: obj.fecha_creada,
           message: obj.contenido,
@@ -49,8 +50,8 @@ export class NotasPage {
               }
           ]
       });
-      
-      this.navCtrl.present(prompt);
+
+      prompt.present();*/
   }
 
 }

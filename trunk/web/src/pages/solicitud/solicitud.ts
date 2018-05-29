@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import * as Constants from '../../util/constants';
 
 /**
  * Generated class for the SolicitudPage page.
@@ -18,6 +19,7 @@ export class SolicitudPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   	this.objetoRecibidoSolicitud= navParams.data;
+    this.nombreITG = Constants.API_ENDPOINT;
   }
 
   ionViewDidLoad() {
