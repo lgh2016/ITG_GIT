@@ -25,9 +25,14 @@ Solicitudes
 <p> {{objetoRecibidoSolicitud.username}}</p>
 
 <ion-list>
-  <ion-item>Solicitud  1</ion-item>
-  <ion-item>Solicitud 2</ion-item>
-  <ion-item>Solicitud  3</ion-item>
+
+  <ion-item-divider  *ngFor="let  obj  of objetoSolicitudes" (click)="detalleSolicitudes(obj)">
+
+      {{obj.fecha_regreso}}<br>
+      {{obj.observaciones}}
+
+
+  </ion-item-divider>
 </ion-list>
 
 
