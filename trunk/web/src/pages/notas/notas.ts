@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { AlertController } from 'ionic-angular';
 import { ConsultaNotaProvider } from '../../providers/consulta-nota/consulta-nota';
+import {  DetalleNotaPage } from '../detalle-nota/detalle-nota';
 
 /**
  * Generated class for the NotasPage page.
@@ -39,6 +40,8 @@ export class NotasPage {
    alert("buscando un detalle");
 
     console.log(obj.contenido);
+
+    this.navCtrl.push(DetalleNotaPage);
 
   /*let prompt = this.AlertController.create({
           title: obj.titulo,
