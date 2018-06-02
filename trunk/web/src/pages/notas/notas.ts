@@ -21,6 +21,7 @@ export class NotasPage {
   objetoRecibidoNota: any;
   objetoNotas: any;
   nombreITG: any;
+  objetoParadetalle: any;
   constructor(public navCtrl: NavController, public navParams: NavParams, public no: ConsultaNotaProvider, public  alertCtrl: AlertController ) {
     this.objetoRecibidoNota = navParams.data;
     this.nombreITG = Constants.API_ENDPOINT;
@@ -42,9 +43,10 @@ export class NotasPage {
 
   /// alert("buscando un detalle");
 
+   this.objetoParadetalle=obj;
     console.log(obj.contenido);
 
-    this.navCtrl.push(DetalleNotaPage,this.obj);
+    this.navCtrl.push(DetalleNotaPage,this.objetoParadetalle);
 
 
   }
