@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import * as Constants from '../../util/constants';
 
 /**
  * Generated class for the DetalleNotaPage page.
@@ -14,8 +15,9 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'detalle-nota.html',
 })
 export class DetalleNotaPage {
-
+ nombreITG: any;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.nombreITG = Constants.API_ENDPOINT;
   }
 
   ionViewDidLoad() {

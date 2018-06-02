@@ -3,6 +3,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { AlertController } from 'ionic-angular';
 import { ConsultaNotaProvider } from '../../providers/consulta-nota/consulta-nota';
 import {  DetalleNotaPage } from '../detalle-nota/detalle-nota';
+import * as Constants from '../../util/constants';
 
 /**
  * Generated class for the NotasPage page.
@@ -19,8 +20,10 @@ import {  DetalleNotaPage } from '../detalle-nota/detalle-nota';
 export class NotasPage {
   objetoRecibidoNota: any;
   objetoNotas: any;
+  nombreITG: any;
   constructor(public navCtrl: NavController, public navParams: NavParams, public no: ConsultaNotaProvider, public  alertCtrl: AlertController ) {
     this.objetoRecibidoNota = navParams.data;
+    this.nombreITG = Constants.API_ENDPOINT;
   }
 
   ionViewDidLoad() {
@@ -37,24 +40,13 @@ export class NotasPage {
   detalleNotas(obj)
   {
 
-   alert("buscando un detalle");
+  /// alert("buscando un detalle");
 
     console.log(obj.contenido);
 
-    this.navCtrl.push(DetalleNotaPage);
+    this.navCtrl.push(DetalleNotaPage,this.obj);
 
-  /*let prompt = this.AlertController.create({
-          title: obj.titulo,
-          subTitle: obj.fecha_creada,
-          message: obj.contenido,
-          buttons: [
-              {
-                  text: 'Cerrar'
-              }
-          ]
-      });
 
-      prompt.present();*/
   }
 
 }
