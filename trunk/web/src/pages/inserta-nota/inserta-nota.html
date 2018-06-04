@@ -1,0 +1,41 @@
+<ion-header class="blanco padding">
+
+      <ion-navbar   color="blanco">
+        <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+
+        <ion-title>
+        {{nombreITG}}
+        </ion-title>
+     </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-item>
+      <ion-label color="primary" floating>Titulo</ion-label>
+    <ion-textarea></ion-textarea>
+  </ion-item>
+  <ion-item>
+    <ion-label color="primary" floating>Descripción</ion-label>
+    <ion-textarea class="tamano"></ion-textarea>
+  </ion-item>
+</ion-content>
+<ion-footer>
+    <ion-grid>
+        <ion-row no-padding no-margin>
+            <ion-col col-4 no-padding>
+
+            </ion-col>
+            <ion-col col-4 no-padding>
+              <button ion-button full icon-end  class="borde" (click)="Guardar()">
+                Guardar
+              </button>
+
+            </ion-col>
+            <ion-col col-4 no-padding>
+
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-footer>

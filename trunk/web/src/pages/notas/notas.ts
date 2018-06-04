@@ -3,6 +3,8 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { AlertController } from 'ionic-angular';
 import { ConsultaNotaProvider } from '../../providers/consulta-nota/consulta-nota';
 import {  DetalleNotaPage } from '../detalle-nota/detalle-nota';
+import { InsertaNotaPage } from '../inserta-nota/inserta-nota';
+
 import * as Constants from '../../util/constants';
 
 /**
@@ -22,6 +24,7 @@ export class NotasPage {
   objetoNotas: any;
   nombreITG: any;
   objetoParadetalle: any;
+  idUsuarioInsertaNota: any;
   constructor(public navCtrl: NavController, public navParams: NavParams, public no: ConsultaNotaProvider, public  alertCtrl: AlertController ) {
     this.objetoRecibidoNota = navParams.data;
     this.nombreITG = Constants.API_ENDPOINT;
@@ -49,6 +52,12 @@ export class NotasPage {
     this.navCtrl.push(DetalleNotaPage,this.objetoParadetalle);
 
 
+  }
+  abrirInsertarNota(idUsuario)
+  {
+    this.idUsuarioInsertaNota=idUsuario;
+     console.log("el id "+this.idUsuarioInsertaNota);
+     this.navCtrl.push(InsertaNotaPage,this.idUsuarioInsertaNota);
   }
 
 }

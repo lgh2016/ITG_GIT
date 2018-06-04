@@ -17,6 +17,8 @@ import { InicioPage } from '../pages/inicio/inicio';
 import { NotasPage} from  '../pages/notas/notas';
 import {  SolicitudPage } from '../pages/solicitud/solicitud';
 import {  DetalleNotaPage } from '../pages/detalle-nota/detalle-nota';
+import {  InsertaNotaPage } from '../pages/inserta-nota/inserta-nota';
+
 
 
 
@@ -42,6 +44,7 @@ import { HttpClientModule } from '@angular/common/http';
     NotasPage,
     SolicitudPage,
     DetalleNotaPage,
+   InsertaNotaPage,
     TabsPage
   ],
   imports: [
@@ -62,6 +65,7 @@ import { HttpClientModule } from '@angular/common/http';
     NotasPage,
     SolicitudPage,
     DetalleNotaPage,
+    InsertaNotaPage,
     TabsPage
   ],
   providers: [

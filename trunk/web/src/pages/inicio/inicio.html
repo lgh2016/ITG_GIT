@@ -1,4 +1,4 @@
-<ion-header class="blanco">
+<ion-header class="blanco padding">
 
   <ion-navbar hideBackButton  color="blanco">
     <button ion-button menuToggle>
@@ -13,10 +13,10 @@
 </ion-header>
 
 <ion-content padding>
-	<div>
+	<div text-center>
 		<img  style=" height: 106px;" src="../assets/imgs/logoitg_trans_chico.png" class="center" />
 	</div>
-   <p>Bienvenido: {{objetoRecibido.username}}</p>
+   <p text-center> Bienvenido: {{objetoRecibido.username}}</p>
 
 	<div style=" padding-top: 5%;">
 		<button ion-button  block color="black" clear class="color" (click)="abrirNotas()">Notas</button>
