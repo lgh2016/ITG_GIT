@@ -16,6 +16,7 @@ import * as Constants from '../../util/constants';
 })
 export class InsertaNotaPage {
   nombreITG: any;
+  datos = {"titulo":"","contenido_nota":""};
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
       this.nombreITG = Constants.API_ENDPOINT;
@@ -24,5 +25,16 @@ export class InsertaNotaPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad InsertaNotaPage');
   }
+  Guardar(){
+
+    console.log('Guardar');
+    if(this.datos.titulo && this.datos.contenido_nota ){
+      console.log("vammos bien");
+
+   }else{
+     alert(" error guardar nota");
+   }
+  }
+
 
 }

@@ -14,11 +14,11 @@
 <ion-content padding>
   <ion-item>
       <ion-label color="primary" floating>Titulo</ion-label>
-    <ion-textarea></ion-textarea>
+    <ion-textarea value="" [(ngModel)]="datos.titulo"></ion-textarea>
   </ion-item>
   <ion-item>
     <ion-label color="primary" floating>Descripción</ion-label>
-    <ion-textarea class="tamano"></ion-textarea>
+    <ion-textarea class="tamano" value="" [(ngModel)]="datos.contenido_nota"></ion-textarea>
   </ion-item>
 </ion-content>
 <ion-footer>
